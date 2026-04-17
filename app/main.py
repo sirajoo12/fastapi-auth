@@ -6,7 +6,7 @@ from database.session import engine
 
 app = FastAPI()
 
-# create database tables
+# create tables
 Base.metadata.create_all(bind=engine)
 
 # include auth routes
