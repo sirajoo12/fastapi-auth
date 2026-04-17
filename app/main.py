@@ -9,7 +9,7 @@ app = FastAPI()
 # create tables
 Base.metadata.create_all(bind=engine)
 
-# include auth routes
+# register auth routes
 app.include_router(auth_router, prefix="/auth")
 
 
