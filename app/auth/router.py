@@ -32,3 +32,8 @@ def login(user: UserLogin, db: Session = Depends(get_db)):
         "access_token": token,
         "token_type": "bearer"
     }
+
+
+@router.get("/test")
+def test():
+    return {"ok": True}
