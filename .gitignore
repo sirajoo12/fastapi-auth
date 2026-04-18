@@ -1,1 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Environment variables (IMPORTANT)
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Migrations (optional)
+migrations/
+
+# FastAPI specific (optional)
+*.env
